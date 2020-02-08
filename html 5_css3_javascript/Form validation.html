@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<meta charset="utf=8">
+<head>
+<title> Form Validation </title>
+<body>
+
+<form id="my Form" method = "post">
+Name:<input type = "text" id = "txtname"  ></br>
+DOB :<input type = "date" id = "txtDOB" required></br>
+mobile number:<input type ="number" id = "txtno" required></br>
+<button id = "btnsubmit" > Submit </button>
+</form>
+<script>
+function validate():
+var x = document.my Form ["txtname"] [ "txtDOB"] ["txtno"].values;
+if (x == " ")
+{
+window.alert("Name should be Filled");
+return false;
+}
+</body>
+</head>
+</html>

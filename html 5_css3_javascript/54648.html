@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+<body>
+First Number:<input type="Number" id="FirstNo"><br>
+Second Number:<input type="Number" id="SecondNo"><br>
+
+<button id="btnShow" onclick="show()">ADD Numbers</button>
+
+<script type="text/javascript">
+function show()
+{
+var a = parseFloat(document.getElementById("FirstNo").value);
+var b = parseFloat(document.getElementById("SecondNo").value);
+
+var result =a + b;
+document.writeln(' sum of ' +a+ ' and ' +b+ ' = ' +result);
+}
+</script>
+</body>
+</html>
