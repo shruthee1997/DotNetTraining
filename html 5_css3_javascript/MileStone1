@@ -1,0 +1,81 @@
+MCQ'S
+
+We use ___style comment to prevent showing Java Script as Content in the old browsers
+[1]. CSS
+[2]. JS
+[3]. C
+[4].HTMLCode Challenge:
+
+Objective: Creating a web form for College admission.
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> Manakula vinayagar college </title>
+</head> 
+<body bgcolor="orange">
+<form Name ="College Registration" action="Submitted" >
+<center>
+<style>
+p{font family:Times New Roman;
+font-size=30px;
+}
+h2{font family:Times New Roman;
+font-size=20px;
+}
+</style>
+<h1>MANAKULA VINAYAGAR COLLEGE</h1>
+<h1>College admission form</h1>
+</center>
+<table>
+<tr>
+<td>First Name : </td><td><input type="text"></td>
+</tr><br>
+<tr>
+<td>Last Name : </td><td><input type="text"></td>
+</tr><br>
+<tr>
+<td> DOB of Applicant : </td><td><input type="Date"></td>
+</tr><br>
+<tr>
+<td> Phone Number : </td><td><input type="Phone number"></td>
+</tr><br>
+<tr>
+<td> Age : </td><td><input type="Number"></td>
+</tr><br>
+<tr>
+<td> Gender : </td>
+<td><input type="Radio" value="Male"> Male <br>
+<input type="Radio" value="Female">Female <br>
+<input type="Radio" value="Others">Others</td>
+</tr></br>
+<tr>
+<td> Religion : </td>
+<td><select>
+<option value= "Hindu">    Hindu     </option>
+<option value= "christian"> Christian  </option>
+<option value= "Muslim">    Muslim    </option>
+</tr></select></td>
+<br>
+<tr>
+<td>Address : </td><td><textarea name="txtaddress" rows="5" columns="40"></textarea></td>
+</tr><br>
+<tr>
+<td> Department : </td>
+<td><select>
+<option value= "IT">  IT   </option>
+<option value= "CSE"> CSE  </option>
+<option value= "ECE"> ECE  </option>
+<option value= "EEE"> EEE  </option>
+<option value= "Mech">Mech  </option>
+</tr></select></td>
+<br>
+<tr><td><input type="Submit" name="btnsubmit" value="submit"></td> <br>
+<td><input type="Reset" name="btnreset" value="reset"></td> <br></tr>
+</table>
+<script type="text/javascript">
+window.alert("Welcome to my college");
+</script>
+</body>
+</html>
